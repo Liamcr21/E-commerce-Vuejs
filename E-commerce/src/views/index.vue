@@ -1,16 +1,16 @@
 <template>
     <div>
-      <mon-composant></mon-composant>
+      <navbar></navbar>
     </div>
   </template>
   
   <script>
-  import MonComposant from '@/components/nav.vue'
+  import navbar from '@/components/nav.vue'
   
   export default {
-    name: 'MaVue',
+    name: 'maNavbar',
     components: {
-      MonComposant
+      navbar
     },
     // Autres options de votre vue
   }
