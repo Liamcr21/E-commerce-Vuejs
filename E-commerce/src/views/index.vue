@@ -24,6 +24,7 @@ import footere from '@/components/footer.vue';
 
 export default {
     name: 'home',
+    name: 'accueil',
   name:'maNavbar',
   components: {
     Navbar,
