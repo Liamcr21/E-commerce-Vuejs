@@ -3,7 +3,7 @@
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-md-6 text-center mb-5">
-					<h2 class="heading-section">Contact</h2>
+					<h1 class="display-5 fw-bold">Contact</h1>
 				</div>
 			</div>
 			<div class="row justify-content-center">
@@ -22,7 +22,7 @@
 											<div class="col-md-6">
 												<div class="form-group">
                                                     <label for="name">Prénom : </label>
-													<input type="text" class="form-control" name="name" id="name" placeholder="Name">
+													<input type="text" class="form-control" name="name" id="name" placeholder="Prénom">
 												</div>
 											</div>
 											<div class="col-md-6"> 
@@ -34,7 +34,7 @@
 											<div class="col-md-12">
 												<div class="form-group">
                                                     <label for="subject">Sujet : </label>
-													<input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
+													<input type="text" class="form-control" name="subject" id="subject" placeholder="Sujet">
 												</div>
 											</div>
 											<div class="col-md-12">
@@ -70,7 +70,7 @@
 				        			<span class="fa fa-phone"></span>
 				        		</div>
 				        		<div class="text pl-3">
-					            <p><span>Téléphone:</span> <a href="tel://1234567920">06.66.15.80.57</a></p>
+					            <p><span>Téléphone:</span> <a href="tel://0666158057">06.66.15.80.57</a></p>
 					          </div>
 				          </div>
 				        	<div class="dbox w-100 d-flex align-items-center">
@@ -78,7 +78,7 @@
 				        			<span class="fa fa-paper-plane"></span>
 				        		</div>
 				        		<div class="text pl-3">
-					            <p><span>Email:</span> <a href="mailto:info@yoursite.com">contact@hawayclothes.fr</a></p>
+					            <p><span>Email:</span> <a href="mailto:contact@hawayclothes.fr">contact@hawayclothes.fr</a></p>
 					          </div>
 				          </div>
 				        	<div class="dbox w-100 d-flex align-items-center">
@@ -86,7 +86,7 @@
 				        			<span class="fa fa-globe"></span>
 				        		</div>
 				        		<div class="text pl-3">
-					            <p><span>SiteWeb:</span> <a href="#">hawayclothes.fr</a></p>
+					            <p><span>SiteWeb:</span> <a href="hawayclothes.fr">hawayclothes.fr</a></p>
 					          </div>
 				          </div>
 			          </div>
@@ -102,7 +102,7 @@
 <style>
 
 .ftco-section {
-  padding: 7em 0; }
+  padding: 2em 0; }
 
 .ftco-no-pt {
   padding-top: 0; }

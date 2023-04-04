@@ -1,7 +1,7 @@
 <template>
   
 <div class="container" style="margin-top: 2%;">
-  <h1 class="text-center">Nos produits populaires</h1>
+  <h1 class="display-5 fw-bold">Nos produits populaires</h1>
   <div class="row" style="margin-top: 2%;">
     <div class="col-sm">
       <div class="card" style="width: 18rem;">
