@@ -1,32 +1,82 @@
 <template>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+  <nav>
+    <div class="brand-logo">
+      <img src="../assets/Hawayrr.png" alt="Your brand logo" />
+    </div>
+    <ul class="nav-links">
+      <li :class="{ active: isActive('accueil') }">
+        <a :href="pageUrl('accueil')" @click="setActive('accueil')">Accueil</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Features</a>
+      <li :class="{ active: isActive('boutique') }">
+        <a :href="pageUrl('boutique')" @click="setActive('boutique')">Boutique</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Pricing</a>
+      <li :class="{ active: isActive('qui-sommes-nous') }">
+        <a :href="pageUrl('qui-sommes-nous')" @click="setActive('qui-sommes-nous')">Qui sommes-nous</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#">Disabled</a>
+      <li :class="{ active: isActive('contact') }">
+        <a :href="pageUrl('contact')" @click="setActive('contact')">Contact</a>
+      </li>
+      <li>
+        <a href="path/to/your/cart"><i class="fa fa-shopping-cart"></i></a>
+      </li>
+      <li>
+        <a href="path/to/your/account"><i class="fa fa-user"></i></a>
       </li>
     </ul>
-  </div>
-</nav>
+  </nav>
 </template>
-
 
 <script>
 export default {
-  name: 'navbar',
-  // Autres options de votre composant
-}
+  methods: {
+    isActive(page) {
+      return this.$route.name === page;
+    },
+    pageUrl(page) {
+      return `/${page}`;
+    },
+    setActive(page) {
+      this.$emit('update:active', page);
+    },
+  },
+};
 </script>
+
+<style>
+nav {
+  background-color: #FFDE59;
+  /* color: rgb(0, 0, 0); */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+.brand-logo > img {
+  height : 150px;
+  width: 150px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+
+  margin: 0 1em;
+}
+
+a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #aaa;
+}
+
+</style>

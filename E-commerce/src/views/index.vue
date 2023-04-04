@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
     <div>
       <navbar></navbar>
     </div>
@@ -14,4 +14,27 @@
     },
     // Autres options de votre vue
   }
-  </script>
+  </script> -->
+
+<template>
+  <div>
+    <navbar :active="active" @update:active="active = $event" />
+    <router-view />
+  </div>
+</template>
+
+<script>
+import Navbar from '@/components/nav.vue';
+
+export default {
+  name:'maNavbar',
+  components: {
+    Navbar,
+  },
+  data() {
+    return {
+      active: 'accueil',
+    };
+  },
+};
+</script>
