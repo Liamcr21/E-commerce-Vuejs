@@ -26,7 +26,7 @@
 
 <script>
 export default {
-  name: 'MonComposant',
+  name: 'navbar',
   // Autres options de votre composant
 }
 </script>
