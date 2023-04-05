@@ -3,12 +3,13 @@
     <h1 class="text-center">Nos produits populaires</h1>
     <div class="row" style="margin-top: 2%;">
       <div class="col-sm" v-for="product in clothes.products" :key=product.id>
-        <div class="card" style="width: 18rem;">
+        <div class="card card-modif" style="width: 18rem;">
           <img class="card-img-top" :src= "product.image" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">{{ product.title }}</h5>
             <p class="card-text">{{ product.price }}€</p>
             <p class="card-text">{{ product.description }}</p>
+            <p class="card-text">{{ product.ratings.rating }}<i class="fa-solid fa-star" style="color: #ffea00;"></i></p>
             <a href="#" class="btn btn-primary text-dark">Ajouter au panier</a>
           </div>
         </div>
@@ -23,7 +24,7 @@
   height: 300px;
 }
 
-.card{
+.card-modif{
   margin-top: 10%;
   height: 650px;
 }
