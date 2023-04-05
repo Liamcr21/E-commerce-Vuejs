@@ -10,7 +10,7 @@
             <h5 class="card-title">{{ product.title }}</h5>
             <p class="card-text">{{ product.description }}</p>
             <p class="card-text">{{ product.price }}€</p>
-            <a href="#" class="btn btn-primary text-dark">Ajouter au panier</a>
+            <a href="#" class="btn btn-primary text-dark">Voir le produit</a>
           </div>
         </div>
       </div>
