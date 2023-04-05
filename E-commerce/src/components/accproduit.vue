@@ -19,7 +19,7 @@
   </div>
 
 
-    <h1 class="text-center">Nos produits populaires</h1>
+  <h1 class="display-5 fw-bold text-center">Nos meilleurs ventes</h1>
     <div class="row" style="margin-top: 2%;">
       <div class="col-sm" v-for="product in popularClothes" :key=product.id>
         <div class="card card-modif" style="width: 18rem;">
@@ -29,12 +29,13 @@
             <p class="card-text">{{ product.price }}€</p>
             <p class="card-text">{{ product.description }}</p>
             <p class="card-text">{{ product.ratings.rating }}<i class="fa-solid fa-star" style="color: #ffea00;"></i></p>
-            <a href="#" class="btn btn-primary text-dark">Ajouter au panier</a>
+            <a href="#" class="btn btn-primary text-dark">Voir le produit</a>
+            <a href=""><img class="btn btn-primary" src="../assets/ajout.png" width="55" style="margin-left: 5%;" alt=""></a>
+          </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
 </template>
 
 <style>
@@ -46,6 +47,7 @@
   margin-top: 10%;
   height: 650px;
 }
+
 </style>
 
 <script>

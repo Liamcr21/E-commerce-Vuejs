@@ -1,7 +1,7 @@
 <template>
 
   <div class="container" style="margin-top: 2%;">
-    <h1 class="text-center">Nos produits</h1>
+    <h1 class="display-5 fw-bold text-center">Nos produits</h1>
     <div class="row" style="margin-top: 2%;">
       <div class="col-sm" v-for="product in displayedProducts" :key=product.id>
         <div class="card card-modif" style="width: 18rem;">
@@ -11,8 +11,8 @@
             <p class="card-text">{{ product.description }}</p>
             <p class="card-text">{{ product.price }}€</p>
 
-            <div class="btn btn-primary" @click="getData(product.id)">Go somewhere</div>
-
+            <div class="btn btn-primary text-dark" @click="getData(product.id)">Voir produit</div>
+            <a href=""><img class="btn btn-primary" src="../assets/ajout.png" width="55" style="margin-left: 5%;" alt=""></a>
           </div>
         </div>
       </div>
