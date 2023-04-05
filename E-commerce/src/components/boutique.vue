@@ -4,7 +4,7 @@
     <h1 class="text-center">Nos produits populaires</h1>
     <div class="row" style="margin-top: 2%;">
       <div class="col-sm" v-for="product in displayedProducts" :key=product.id>
-        <div class="card" style="width: 18rem;">
+        <div class="card-modif" style="width: 18rem;">
           <img class="card-img-top" :src= "product.image" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">{{ product.title }}</h5>
@@ -30,6 +30,17 @@
       </ul>
     </nav>  
 </template>
+
+<style>
+.card-img-top {
+  height: 300px;
+}
+
+.card-modif{
+  margin-top: 10%;
+  height: 650px;
+}
+</style>
 
 <script>
 import clothes from '@/assets/json_files/clothes.json';
