@@ -5,9 +5,9 @@
       <navbar :active="active" @update:active="active = $event" />
       <router-view />
     </div>
-  
+
     <div>
-      <contactform/>
+      <boutique/>
     </div>
   
     <div>
@@ -19,14 +19,14 @@
   
   <script>
   import Navbar from '@/components/nav.vue';
-  import contactform from '@/components/contact.vue';
+  import boutique from '@/components/boutique.vue';
   import footere from '@/components/footer.vue';
   
   export default {
-      name: 'contact',
+      name: 'boutiques',
     components: {
       Navbar,
-      contactform,
+      boutique,
       footere, 
     },
     data() {
