@@ -1,9 +1,26 @@
 <template>
-  <div class="container" style="margin-top: 2%;">
+  <div class="container">
+
+  <div class=" my-5 text-center border-bottom">
+    <h1 class="display-4 fw-bold">Hawaï Clothes</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">Des vêtements d'été fabriqués en France, pour un style à la française</p>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+        <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3 text-dark">Nos produits</button>
+      </div>
+    </div>
+    <div class="overflow-hidden" style="max-height: 30vh;">
+      <div class="container px-5">
+        <img src="../assets/ttt.jpg" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="500" loading="lazy">
+      </div>
+    </div>
+  </div>
+
+
     <h1 class="text-center">Nos produits populaires</h1>
     <div class="row" style="margin-top: 2%;">
       <div class="col-sm" v-for="product in popularClothes" :key=product.id>
-        <div class="card" style="width: 18rem;">
+        <div class="card card-modif" style="width: 18rem;">
           <img class="card-img-top" :src= "product.image" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">{{ product.title }}</h5>
@@ -22,7 +39,7 @@
   height: 300px;
 }
 
-.card{
+.card-modif{
   margin-top: 10%;
   height: 650px;
 }
