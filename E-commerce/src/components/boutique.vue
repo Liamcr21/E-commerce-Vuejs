@@ -10,7 +10,8 @@
             <h5 class="card-title">{{ product.title }}</h5>
             <p class="card-text">{{ product.description }}</p>
             <p class="card-text">{{ product.price }}€</p>
-            <a href="#" class="btn btn-primary text-dark">Voir le produit</a>
+
+            <div class="btn btn-primary text-dark" @click="getData(product.id)">Voir produit</div>
             <a href=""><img class="btn btn-primary" src="../assets/ajout.png" width="55" style="margin-left: 5%;" alt=""></a>
           </div>
         </div>
@@ -52,13 +53,26 @@
 
 <script>
 import clothes from '@/assets/json_files/clothes.json';
+import { useProductStore } from '@/stores/product';
 
 export default {
+  setup(){
+    const productStore = useProductStore()
+    return {
+      productStore
+    }
+  },
   data() {
     return {
       clothes,
       currentPage: 1,
       itemsPerPage: 8
+    }
+  },
+  methods : {
+    async getData(productId) {
+      // console.log(productId)
+      this.productStore.setSelectedProduct(productId)
     }
   },
   computed: {
