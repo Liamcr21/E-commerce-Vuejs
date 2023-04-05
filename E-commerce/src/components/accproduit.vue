@@ -34,7 +34,7 @@ export default {
 
       await axios
         .get("https://fakestoreapi.com/products/")
-        .then(response => console.log(response.data))
+        .then(response => this.products =response.data)
         .catch(error => {
           console.log(error);
         });
