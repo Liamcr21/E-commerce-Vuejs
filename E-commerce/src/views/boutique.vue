@@ -6,6 +6,9 @@
       <router-view />
     </div>
 
+    <div>
+      <boutique/>
+    </div>
   
     <div>
       <footere/>
@@ -16,12 +19,14 @@
   
   <script>
   import Navbar from '@/components/nav.vue';
+  import boutique from '@/components/boutique.vue';
   import footere from '@/components/footer.vue';
   
   export default {
-      name: 'contact',
+      name: 'boutiques',
     components: {
       Navbar,
+      boutique,
       footere, 
     },
     data() {
