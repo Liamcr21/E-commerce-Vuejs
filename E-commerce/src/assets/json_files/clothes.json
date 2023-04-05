@@ -76,6 +76,149 @@
                 "rating": 4.3,
                 "count": 120
             }
+        },
+        {
+            "id": 8,
+            "title": "Women's Boho Skirt",
+            "price": 24.99,
+            "description": "This boho skirt is perfect for any summer day, with its flowing fabric and colorful patterns. Pair it with a simple top and sandals for a laid-back look that's perfect for the beach or a casual brunch with friends.",
+            "image": "https://fakestoreapi.com/img/42/8.jpg",
+            "rating": {
+                "rate": 3.9,
+                "count": 81
+            }
+        },
+        {
+            "id": 9,
+            "title": "Men's Hawaiian Shirt",
+            "price": 19.99,
+            "description": "Get ready for your next luau with this colorful Hawaiian shirt. Made with lightweight and breathable fabric, it's perfect for any outdoor event. Features a classic button-front design and a fun tropical print.",
+            "image": "https://fakestoreapi.com/img/61/9.jpg",
+            "rating": {
+                "rate": 4.4,
+                "count": 163
+            }
+        },
+        {
+            "id": 10,
+            "title": "Women's Sun Hat",
+            "price": 12.99,
+            "description": "Stay cool and protected from the sun with this stylish sun hat. Features a wide brim and a cute bow detail. Perfect for any summer outing, from the beach to the park.",
+            "image": "https://fakestoreapi.com/img/51/10.jpg",
+            "rating": {
+                "rate": 4.1,
+                "count": 278
+            }
+        },
+        {
+            "id": 11,
+            "title": "Men's Short Sleeve Button-Down Shirt",
+            "price": 29.99,
+            "description": "This classic short sleeve shirt is perfect for any summer occasion. Made with soft and breathable fabric, it's perfect for staying cool and comfortable in the heat. Features a button-front design and a classic fit.",
+            "image": "https://fakestoreapi.com/img/39/11.jpg",
+            "rating": {
+                "rate": 4.5,
+                "count": 56
+            }
+        },
+        {
+            "id": 12,
+            "title": "Women's Denim Shorts",
+            "price": 14.99,
+            "description": "These denim shorts are a summer wardrobe staple. Made with high-quality denim and a comfortable fit, they're perfect for any casual occasion. Features a classic five-pocket design and a raw hem.",
+            "image": "https://fakestoreapi.com/img/81/12.jpg",
+            "rating": {
+                "rate": 3.7,
+                "count": 123
+            }
+        },
+        {
+            "id": 13,
+            "title": "Yellow Floral Sundress",
+            "price": 39.99,
+            "description": "This yellow floral sundress is perfect for any summer occasion. The bright yellow color and floral pattern will make you stand out in a crowd. The lightweight fabric is perfect for hot summer days.",
+            "image": "https://i.imgur.com/BJYpb8g.jpg",
+            "rating": {
+                "rate": 4.8,
+                "count": 63
+            }
+        },
+        {
+            "id": 14,
+            "title": "White Lace Crop Top",
+            "price": 24.99,
+            "description": "This white lace crop top is perfect for a day at the beach or a night out. The delicate lace detailing adds a feminine touch to any outfit. The cropped length is perfect for pairing with high-waisted shorts or a skirt.",
+            "image": "https://i.imgur.com/0K6UkLO.jpg",
+            "rating": {
+                "rate": 4.5,
+                "count": 80
+            }
+        },
+        {
+            "id": 15,
+            "title": "Coral Maxi Dress",
+            "price": 49.99,
+            "description": "This coral maxi dress is perfect for any summer wedding or event. The flowy fabric and delicate straps create a feminine and elegant look. The bright coral color is perfect for summer.",
+            "image": "https://i.imgur.com/zvM2JzB.jpg",
+            "rating": {
+                "rate": 4.2,
+                "count": 52
+            }
+        },
+        {
+            "id": 16,
+            "title": "Blue Striped Shorts",
+            "price": 29.99,
+            "description": "These blue striped shorts are perfect for a day at the beach or running errands. The lightweight fabric and loose fit make them comfortable for all-day wear. The blue and white stripe pattern is perfect for summer.",
+            "image": "https://i.imgur.com/cYODgNz.jpg",
+            "rating": {
+                "rate": 4.0,
+                "count": 43
+            }
+        },
+        {
+            "id": 17,
+            "title": "Pink Floral Midi Dress",
+            "price": 54.99,
+            "description": "This pink floral midi dress is perfect for any summer occasion. The bright pink color and floral pattern will make you stand out in a crowd. The midi length and flowy fabric create a feminine and elegant look.",
+            "image": "https://i.imgur.com/yHJxoNQ.jpg",
+            "rating": {
+                "rate": 4.6,
+                "count": 76
+            }
+        },
+        {
+            "id": 18,
+            "title": "Denim Shorts",
+            "price": 34.99,
+            "description": "These denim shorts are a summer wardrobe staple. The high-waisted fit and distressed detailing create a trendy and edgy look. The denim fabric is perfect for all-day wear.",
+            "image": "https://i.imgur.com/CqOszWI.jpg",
+            "rating": {
+                "rate": 4.2,
+                "count": 62
+            }
+        },
+        {
+            "id": 18,
+            "title": "Floral Print Mini Dress",
+            "price": 35.99,
+            "description": "Get ready for summer with this adorable floral print mini dress! Made from lightweight and breathable fabric, it's perfect for staying cool on those hot days. The dress features a flattering A-line silhouette and a flirty ruffle hem. Pair it with sandals and a sun hat for a stylish and comfortable summer look.",
+            "image": "https://i.imgur.com/rQ13wZ7.jpg",
+            "rating": {
+                "rate": 4.5,
+                "count": 32
+            }
+        },
+        {
+            "id": 18,
+            "title": "Floral Print Mini Dress",
+            "price": 35.99,
+            "description": "Get ready for summer with this adorable floral print mini dress! Made from lightweight and breathable fabric, it's perfect for staying cool on those hot days. The dress features a flattering A-line silhouette and a flirty ruffle hem. Pair it with sandals and a sun hat for a stylish and comfortable summer look.",
+            "image": "https://i.imgur.com/rQ13wZ7.jpg",
+            "rating": {
+                "rate": 4.5,
+                "count": 32
+            }
         }
     ]
 }
