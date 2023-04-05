@@ -1,5 +1,3 @@
-
-
 <template>
   <div>
     <navbar :active="active" @update:active="active = $event" />
