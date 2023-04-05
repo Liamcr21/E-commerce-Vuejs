@@ -1,5 +1,5 @@
 <template>
-  <nav>
+  <nav class="menuNav">
     <div class="brand-logo">
       <img src="../assets/Hawayrr.png" alt="Your brand logo" />
     </div>
@@ -43,7 +43,7 @@ export default {
 </script>
 
 <style>
-nav {
+.menuNav {
   background-color: #FFDE59;
   /* color: rgb(0, 0, 0); */
   display: flex;
