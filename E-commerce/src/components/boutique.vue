@@ -9,6 +9,7 @@
             <h5 class="card-title">{{ product.title }}</h5>
             <p class="card-text">{{ product.price }}€</p>
             <p class="card-text">{{ product.description }}</p>
+            <p class="card-text">{{ product.ratings.rating }}<i class="fa-solid fa-star" style="color: #ffea00;"></i></p>
             <a href="#" class="btn btn-primary text-dark">Ajouter au panier</a>
           </div>
         </div>

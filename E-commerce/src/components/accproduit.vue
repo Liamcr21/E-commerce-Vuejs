@@ -6,7 +6,9 @@
     <div class="col-lg-6 mx-auto">
       <p class="lead mb-4">Des vêtements d'été fabriqués en France, pour un style à la française</p>
       <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
-        <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3 text-dark">Nos produits</button>
+        <router-link to="/boutique">
+          <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3 text-dark">Nos produits</button>
+</router-link> 
       </div>
     </div>
     <div class="overflow-hidden" style="max-height: 30vh;">
@@ -26,6 +28,7 @@
             <h5 class="card-title">{{ product.title }}</h5>
             <p class="card-text">{{ product.price }}€</p>
             <p class="card-text">{{ product.description }}</p>
+            <p class="card-text">{{ product.ratings.rating }}<i class="fa-solid fa-star" style="color: #ffea00;"></i></p>
             <a href="#" class="btn btn-primary text-dark">Ajouter au panier</a>
           </div>
         </div>
