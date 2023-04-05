@@ -1,0 +1,81 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "title": "Floral Summer Dress",
+            "price": 29.99,
+            "description": "Stay cool and stylish this summer with our beautiful floral dress. Made from lightweight, breathable fabric, it's perfect for any occasion.",
+            "image": "https://via.placeholder.com/300x400.png?text=Floral+Summer+Dress",
+            "ratings": {
+                "rating": 4.5,
+                "count": 25
+            }
+        },
+        {
+            "id": 2,
+            "title": "Beach Shorts",
+            "price": 19.99,
+            "description": "Hit the beach in style with our comfortable and durable beach shorts. Available in a variety of colors and sizes.",
+            "image": "https://via.placeholder.com/300x400.png?text=Beach+Shorts",
+            "ratings": {
+                "rating": 3.8,
+                "count": 16
+            }
+        },
+        {
+            "id": 3,
+            "title": "Sun Hat",
+            "price": 14.99,
+            "description": "Protect your face and stay cool in the sun with our stylish sun hat. Made from high-quality materials, it's the perfect accessory for any summer outfit.",
+            "image": "https://via.placeholder.com/300x400.png?text=Sun+Hat",
+            "ratings": {
+                "rating": 4.2,
+                "count": 10
+            }
+        },
+        {
+            "id": 4,
+            "title": "Sunglasses",
+            "price": 9.99,
+            "description": "Shield your eyes from the sun in style with our trendy sunglasses. With a wide selection of frames and lenses to choose from, you're sure to find the perfect pair for you.",
+            "image": "https://via.placeholder.com/300x400.png?text=Sunglasses",
+            "ratings": {
+                "rating": 4.6,
+                "count": 32
+            }
+        },
+        {
+            "id": 5,
+            "title": "Flip Flops",
+            "price": 12.99,
+            "description": "Slip into something comfortable this summer with our stylish and affordable flip flops. Available in a range of colors and sizes.",
+            "image": "https://via.placeholder.com/300x400.png?text=Flip+Flops",
+            "ratings": {
+                "rating": 3.9,
+                "count": 8
+            }
+        },
+        {
+            "id": 6,
+            "title": "Tank Top",
+            "price": 16.99,
+            "description": "Stay cool and comfortable in our lightweight tank top. Perfect for any summer activity, from hiking to lounging by the pool.",
+            "image": "https://via.placeholder.com/300x400.png?text=Tank+Top",
+            "ratings": {
+                "rating": 4.0,
+                "count": 12
+            }
+        },
+        {
+            "id": 7,
+            "title": "Denim Shorts",
+            "price": 24.99,
+            "description": "Get the classic summer look with our stylish and durable denim shorts. Available in a range of sizes.",
+            "image": "https://via.placeholder.com/300x400.png?text=Denim+Shorts",
+            "ratings": {
+                "rating": 4.3,
+                "count": 120
+            }
+        }
+    ]
+}
