@@ -2,7 +2,7 @@
   <div class="container" style="margin-top: 2%;">
     <h1 class="text-center">Nos produits populaires</h1>
     <div class="row" style="margin-top: 2%;">
-      <div class="col-sm" v-for="product in products" :key=product.id>
+      <div class="col-sm" v-for="product in clothes.products" :key=product.id>
         <div class="card" style="width: 18rem;">
           <img class="card-img-top" :src= "product.image" alt="Card image cap">
           <div class="card-body">
@@ -19,26 +19,27 @@
 
 <script>
 import axios from 'axios';
+import clothes from '@/assets/json_files/clothes.json';
 
 export default {
   data() {
     return {
-      products: [],
-    }
-  },
-  mounted() {
-    this.fetchData();
-  },
-  methods: {
-    async fetchData() {
-
-      await axios
-        .get("https://fakestoreapi.com/products/")
-        .then(response => this.products =response.data)
-        .catch(error => {
-          console.log(error);
-        });
+      clothes
     }
   }
+  // mounted() {
+  //   this.fetchData();
+  // },
+  // methods: {
+  //   async fetchData() {
+
+  //     await fetch("../assets/json_files/clothes.json")
+  //       .then(response =>response.json())
+  //       .then(data => { this.products = data.products})
+  //       .catch(error => {
+  //         console.log(error);
+  //       });
+  //   }
+  // }
 }
 </script>
