@@ -19,7 +19,7 @@
   </div>
 
 
-    <h1 class="text-center">Nos produits populaires</h1>
+  <h1 class="display-5 fw-bold text-center">Nos meilleurs ventes</h1>
     <div class="row" style="margin-top: 2%;">
       <div class="col-sm" v-for="product in popularClothes" :key=product.id>
         <div class="card card-modif" style="width: 18rem;">
