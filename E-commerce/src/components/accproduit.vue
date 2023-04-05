@@ -30,11 +30,12 @@
             <p class="card-text">{{ product.description }}</p>
             <p class="card-text">{{ product.ratings.rating }}<i class="fa-solid fa-star" style="color: #ffea00;"></i></p>
             <a href="#" class="btn btn-primary text-dark">Voir le produit</a>
+            <a href=""><img class="btn btn-primary" src="../assets/ajout.png" width="55" style="margin-left: 5%;" alt=""></a>
+          </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
 </template>
 
 <style>
@@ -46,6 +47,7 @@
   margin-top: 10%;
   height: 650px;
 }
+
 </style>
 
 <script>

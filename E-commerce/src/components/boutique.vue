@@ -11,6 +11,7 @@
             <p class="card-text">{{ product.description }}</p>
             <p class="card-text">{{ product.price }}€</p>
             <a href="#" class="btn btn-primary text-dark">Voir le produit</a>
+            <a href=""><img class="btn btn-primary" src="../assets/ajout.png" width="55" style="margin-left: 5%;" alt=""></a>
           </div>
         </div>
       </div>
