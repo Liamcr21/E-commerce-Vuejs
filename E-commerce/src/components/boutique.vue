@@ -10,7 +10,7 @@
             <h5 class="card-title">{{ product.title }}</h5>
             <p class="card-text">{{ product.description }}</p>
             <p class="card-text">{{ product.price }}€</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <div class="btn btn-primary" @click="getData(product.id)">Go somewhere</div>
           </div>
         </div>
       </div>
@@ -33,13 +33,26 @@
 
 <script>
 import clothes from '@/assets/json_files/clothes.json';
+import { useProductStore } from '@/stores/product';
 
 export default {
+  setup(){
+    const productStore = useProductStore()
+    return {
+      productStore
+    }
+  },
   data() {
     return {
       clothes,
       currentPage: 1,
       itemsPerPage: 8
+    }
+  },
+  methods : {
+    async getData(productId) {
+      // console.log(productId)
+      this.productStore.setSelectedProduct(productId)
     }
   },
   computed: {
