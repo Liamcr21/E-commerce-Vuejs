@@ -9,7 +9,7 @@
             <h5 class="card-title">{{ product.title }}</h5>
             <p class="card-text">{{ product.price }}€</p>
             <p class="card-text">{{ product.description }}</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <a href="#" class="btn btn-primary text-dark">Ajouter au panier</a>
           </div>
         </div>
       </div>
@@ -17,6 +17,19 @@
   </div>
 </template>
   
+
+<style>
+.card-img-top {
+  height: 300px;
+}
+
+.card{
+  margin-top: 10%;
+  height: 650px;
+}
+</style>
+
+
   <script>
   import axios from 'axios';
   import clothes from '@/assets/json_files/clothes.json';
