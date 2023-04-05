@@ -17,11 +17,11 @@
         <a :href="pageUrl('contact')" @click="setActive('contact')">Contact</a>
       </li>
       <li>
-        <a href="path/to/your/cart"><i class="fa-solid fa-bag-shopping"></i></a>
+        <router-link to="/panier">
+ <i class="fa-solid fa-bag-shopping"></i>
+</router-link>
       </li>
-      <li>
-        <a href="path/to/your/account"><i class="fa fa-user"></i></a>
-      </li>
+     
     </ul>
   </nav>
 </template>
