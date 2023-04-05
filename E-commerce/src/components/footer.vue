@@ -4,8 +4,9 @@
   <div class="card-body">
     <h5 class="card-title">Hawaï Clothes</h5>
     <p class="card-text">Boutique de vétements 100% francais</p>
-    <a href="#" class="btn btn-outline btn-jaune">Mentions Légals</a>
-  </div>
+    <router-link to="/mentions">
+  <button type="button" class="btn btn-primary btn-lg px-4 gap-3 text-dark">Mentions légales</button>
+</router-link>  </div>
   <div class="card-footer text-muted">
     @Tous droit réservés - 2023 - Création par Liam Cariou et Bogdan Monoté
   </div>
