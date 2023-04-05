@@ -18,13 +18,13 @@
       </li>
       <li>
         <router-link to="/panier">
- <i class="fa-solid fa-bag-shopping"></i>
-</router-link>
+          <img src="../assets/checkout.png" width="25" alt="">
+        </router-link>
       </li>
      
     </ul>
   </nav>
-</template>
+</template>   
 
 <script>
 export default {
