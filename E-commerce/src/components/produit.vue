@@ -4,7 +4,11 @@
                 <div class="row gx-4 gx-lg-5 align-items-center">
                     <div class="col-md-6"><img class="" :src="product.image" width="500" alt="..." /></div>
                     <div class="col-md-6">
+
                         <div class="fs-4 mb-1">{{ product.rate}} <i class="fa-solid fa-star" style="color: #ffea00;"></i></div>
+
+                       
+
                         <h1 class="display-5 fw-bolder">{{ product.title }}</h1>
                         <div class="fs-5 mb-2">
                             <span>{{ product.price }} €</span>
