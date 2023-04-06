@@ -1,24 +1,27 @@
 <template>
   <nav class="menuNav">
+    <router-link to="/accueil">
     <div class="brand-logo">
       <img src="../assets/Hawayrr.png" alt="Your brand logo" />
     </div>
-    <ul class="nav-links">
-      <li :class="{ active: isActive('accueil') }">
-        <a :href="pageUrl('accueil')" @click="setActive('accueil')">Accueil</a>
+  </router-link>
+
+    <ul class="nav-links ">
+      <li :class="{ active: isActive('accueil')}">
+        <a :href="pageUrl('accueil')" @click="setActive('accueil')" class="fs-5 font-weight-bold limodif liennav">Accueil</a>
       </li>
       <li :class="{ active: isActive('boutique') }">
-        <a :href="pageUrl('boutique')" @click="setActive('boutique')">Boutique</a>
+        <a :href="pageUrl('boutique')" @click="setActive('boutique')" class=" fs-5 font-weight-bold limodif  liennav">Boutique</a>
       </li>
       <li :class="{ active: isActive('qui-sommes-nous') }">
-        <a :href="pageUrl('qui-sommes-nous')" @click="setActive('qui-sommes-nous')">Qui sommes-nous ?</a>
+        <a :href="pageUrl('qui-sommes-nous')" @click="setActive('qui-sommes-nous')" class=" fs-5 font-weight-bold limodif liennav">Qui sommes-nous ?</a>
       </li>
       <li :class="{ active: isActive('contact') }">
-        <a :href="pageUrl('contact')" @click="setActive('contact')">Contact</a>
+        <a :href="pageUrl('contact')" @click="setActive('contact')" class=" fs-5 font-weight-bold limodif liennav">Contact</a>
       </li>
       <li>
         <router-link to="/panier">
-          <img src="../assets/checkout.png" width="25" alt="">
+          <img   class=" fs-5 font-weight-bold limodif liennav" src="../assets/checkout.png" width="25" alt="">
         </router-link>
       </li>
      
@@ -45,16 +48,20 @@ export default {
 <style>
 .menuNav {
   background-color: #FFDE59;
-  /* color: rgb(0, 0, 0); */
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 2rem;
 }
 
+.liennav:hover {
+  color: #000;
+  border-bottom: 3px solid #000;
+}
+
 .brand-logo > img {
-  height : 150px;
-  width: 150px;
+  height : 200px;
+  width: 200px;
 }
 
 .nav-links {
@@ -64,8 +71,7 @@ export default {
   padding: 0;
 }
 
-li {
-
+.limodif {
   margin: 0 1em;
 }
 
@@ -75,8 +81,6 @@ a {
   transition: color 0.3s ease;
 }
 
-a:hover {
-  color: #aaa;
-}
+
 
 </style>
