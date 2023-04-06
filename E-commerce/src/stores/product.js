@@ -11,6 +11,7 @@ export const useProductStore = defineStore( 'product',{
       const product = clothes.products.find(p => p.id === productId);
       this.selectedProduct = product
       router.push("/produit")
+      // router.push("/accueil")
       // console.log(product)
     }
   }

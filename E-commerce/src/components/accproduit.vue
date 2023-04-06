@@ -28,8 +28,8 @@
             <h5 class="card-title">{{ product.title }}</h5>
             <p class="card-text">{{ product.price }}€</p>
             <p class="card-text">{{ product.description }}</p>
-            <p class="card-text">{{ product.ratings.rating }}<i class="fa-solid fa-star" style="color: #ffea00;"></i></p>
-            <a href="#" class="btn btn-primary text-dark">Voir le produit</a>
+            <p class="card-text">{{ product.rate }}<i class="fa-solid fa-star" style="color: #ffea00;"></i></p>
+            <div class="btn btn-primary text-dark" @click="getData(product.id)">Voir produit</div>
             <a href=""><img class="btn btn-primary" src="../assets/ajout.png" width="55" style="margin-left: 5%;" alt=""></a>
           </div>
           </div>
@@ -52,6 +52,7 @@
 
 <script>
 import clothes from '@/assets/json_files/clothes.json';
+import { useProductStore } from '@/stores/product';
 
 export default {
   data() {
@@ -59,11 +60,21 @@ export default {
       clothes
     }
   },
+  setup(){
+    const productStore = useProductStore()
+    return {
+      productStore
+    }
+  },
+  methods : {
+    async getData(productId) {
+      // console.log(productId)
+      this.productStore.setSelectedProduct(productId)
+    }
+  },
   computed: {
     popularClothes() {
-      // Sort the products array by ranking property
-      const sortedClothes = this.clothes.products.sort((a, b) => b.rating - a.rating);
-      // Get the first 4 products from the sorted array
+      const sortedClothes = this.clothes.products.sort((a, b) => b.rate - a.rate);
       return sortedClothes.slice(0, 4);
     }
   }
