@@ -36,6 +36,10 @@
         </div>
       </div>
     </div>
+    <router-link to="/qui-sommes-nous">
+    <img src="../assets/qsm.jpg" class="imgsqm" alt="">
+  </router-link> 
+
 </template>
 
 <style>
@@ -47,6 +51,17 @@
   margin-top: 10%;
   height: 650px;
 }
+
+.imgsqm {
+  margin-top: 3%;
+  margin-bottom: 3%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 
 </style>
 
