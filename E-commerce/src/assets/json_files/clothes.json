@@ -6,10 +6,9 @@
             "price": 29.99,
             "description": "Stay cool and stylish this summer with our beautiful floral dress. Made from lightweight, breathable fabric, it's perfect for any occasion.",
             "image": "https://swimwear365.scene7.com/is/image/OttoUK/466w/floral-print-spaghetti-strap-summer-dress-by-lascana~82885109FRSP.jpg",
-            "ratings": {
-                "rating": 4.5,
-                "count": 25
-            }
+            "rate": 4.5,
+            "countRate": 25,
+            "category" : "dresses"
         },
         {
             "id": 2,
@@ -17,10 +16,9 @@
             "price": 19.99,
             "description": "Hit the beach in style with our comfortable and durable beach shorts. Available in a variety of colors and sizes.",
             "image": "https://img.ltwebstatic.com/images3_pi/2022/12/16/1671160553d7e8262c88d3db7fa9ff52fc4277cc95_thumbnail_900x.webp",
-            "ratings": {
-                "rating": 5,
-                "count": 16
-            }
+            "rate": 5,
+            "countRate": 16,
+            "category" : "shorts"
         },
         {
             "id": 3,
@@ -28,10 +26,9 @@
             "price": 14.99,
             "description": "Protect your face and stay cool in the sun with our stylish sun hat. Made from high-quality materials, it's the perfect accessory for any summer outfit.",
             "image": "https://cdn.shopify.com/s/files/1/0553/7218/5768/products/H04HT7073_Ultralight_Cape_Sunhat_Taupe_b_1400x.jpg?v=1663090915",
-            "ratings": {
-                "rating": 4.2,
-                "count": 10
-            }
+            "rate": 4.2,
+            "countRate": 10,
+            "category" : "hat"
         },
         {
             "id": 4,
@@ -39,10 +36,9 @@
             "price": 9.99,
             "description": "Shield your eyes from the sun in style with our trendy sunglasses. With a wide selection of frames and lenses to choose from, you're sure to find the perfect pair for you.",
             "image": "https://img01.ztat.net/article/spp-media-p1/49cae864ea1b3d3c91464050cd7bddfd/322211c203e84fd3a2fdf90f8d414744.jpg?imwidth=762&filter=packshot",
-            "ratings": {
-                "rating": 4.6,
-                "count": 32
-            }
+            "rate": 4.6,
+            "countRate": 32,
+            "category" : "sunglasses"
         },
         {
             "id": 5,
@@ -50,10 +46,8 @@
             "price": 12.99,
             "description": "Slip into something comfortable this summer with our stylish and affordable flip flops. Available in a range of colors and sizes.",
             "image": "https://cdn.shopify.com/s/files/1/1821/4215/products/maui-womens-flip-flops-sea-glass-638359.jpg?v=1678292832",
-            "ratings": {
-                "rating": 3.9,
-                "count": 8
-            }
+            "rate": 3.9,
+            "countRate": 8
         },
         {
             "id": 6,
@@ -61,10 +55,8 @@
             "price": 16.99,
             "description": "Stay cool and comfortable in our lightweight tank top. Perfect for any summer activity, from hiking to lounging by the pool.",
             "image": "https://www.gorillawear.com/resize/90126500-madera-tank-top-burgundy-red-7_7570012588510.jpg/0/1100/True/madera-tank-top-burgundy-red.jpg",
-            "ratings": {
-                "rating": 4.0,
-                "count": 12
-            }
+            "rate": 4.0,
+            "countRate": 12
         },
         {
             "id": 7,
@@ -72,10 +64,8 @@
             "price": 24.99,
             "description": "Get the classic summer look with our stylish and durable denim shorts. Available in a range of sizes.",
             "image": "https://media.boohoo.com/i/boohoo/fzz09682_mid%20blue_xl?w=900&qlt=default&fmt.jp2.qlt=70&fmt=auto&sm=fit",
-            "ratings": {
-                "rating": 4.3,
-                "count": 120
-            }
+            "rate": 4.3,
+            "countRate": 120
         },
         {
             "id": 8,
@@ -83,10 +73,8 @@
             "price": 24.99,
             "description": "This boho skirt is perfect for any summer day, with its flowing fabric and colorful patterns. Pair it with a simple top and sandals for a laid-back look that's perfect for the beach or a casual brunch with friends.",
             "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQth-jNHJqnTaLS68Q8Vk0CtmPX74YC68F8JYH5WWiLjYvdI2bLXasdbJNH4eTPnOanOhb41HgLuq4Ts7euIPW4gv7ZQJz-&usqp=CAE",
-            "rating": {
-                "rate": 3.9,
-                "count": 81
-            }
+            "rate": 3.9,
+            "countRate": 81
         },
         {
             "id": 9,
@@ -94,10 +82,8 @@
             "price": 19.99,
             "description": "Get ready for your next luau with this colorful Hawaiian shirt. Made with lightweight and breathable fabric, it's perfect for any outdoor event. Features a classic button-front design and a fun tropical print.",
             "image": "https://images.squarespace-cdn.com/content/v1/5d0c79217dfe060001480a49/1666394260996-3GTIKFNR0XAHLI56CN59/Men%27s+Aloha+Shirt+Kaniakapupu+Alani+4.jpg?format=1500w",
-            "rating": {
-                "rate": 4.4,
-                "count": 163
-            }
+            "rate": 4.4,
+            "countRate": 163
         },
         {
             "id": 10,
@@ -105,10 +91,8 @@
             "price": 12.99,
             "description": "Stay cool and protected from the sun with this stylish sun hat. Features a wide brim and a cute bow detail. Perfect for any summer outing, from the beach to the park.",
             "image": "https://cdn.shopify.com/s/files/1/1163/2604/products/IMG_2211.jpg?v=1625036219",
-            "rating": {
-                "rate": 4.1,
-                "count": 278
-            }
+            "rate": 4.1,
+            "countRate": 278
         },
         {
             "id": 11,
@@ -116,10 +100,8 @@
             "price": 29.99,
             "description": "This classic short sleeve shirt is perfect for any summer occasion. Made with soft and breathable fabric, it's perfect for staying cool and comfortable in the heat. Features a button-front design and a classic fit.",
             "image": "https://pyxis.nymag.com/v1/imgs/922/2a0/865942d29f253b868b25e3b70a88ab9aec-vancationmodel-1296x.2x.rsquare.w600.jpg",
-            "rating": {
-                "rate": 4.5,
-                "count": 56
-            }
+            "rate": 4.5,
+            "countRate": 56
         },
         {
             "id": 12,
@@ -127,10 +109,8 @@
             "price": 14.99,
             "description": "These denim shorts are a summer wardrobe staple. Made with high-quality denim and a comfortable fit, they're perfect for any casual occasion. Features a classic five-pocket design and a raw hem.",
             "image": "https://sourcingjournal.com/wp-content/uploads/2020/05/women-levis.png",
-            "rating": {
-                "rate": 3.7,
-                "count": 123
-            }
+            "rate": 3.7,
+            "countRate": 123
         },
         {
             "id": 13,
@@ -138,10 +118,8 @@
             "price": 39.99,
             "description": "This yellow floral sundress is perfect for any summer occasion. The bright yellow color and floral pattern will make you stand out in a crowd. The lightweight fabric is perfect for hot summer days.",
             "image": "https://www.lulus.com/images/product/xlarge/3150770_607842.jpg?w=375&hdpi=1",
-            "rating": {
-                "rate": 4.8,
-                "count": 63
-            }
+            "rate": 4.8,
+            "countRate": 63
         },
         {
             "id": 14,
@@ -149,10 +127,8 @@
             "price": 24.99,
             "description": "This white lace crop top is perfect for a day at the beach or a night out. The delicate lace detailing adds a feminine touch to any outfit. The cropped length is perfect for pairing with high-waisted shorts or a skirt.",
             "image": "https://www.showpo.com/dw/image/v2/BDPQ_PRD/on/demandware.static/-/Sites-sp-master-catalog/default/dwe5c53120/images/felicitie-lace-crop-top-ST22040009/FELICITIE_LACE_BUSTIER_CROP_TOP_IN_WHITE_2528please_crop_into_the_top2529.jpg",
-            "rating": {
-                "rate": 4.5,
-                "count": 80
-            }
+            "rate": 4.5,
+            "countRate": 80
         },
         {
             "id": 15,
@@ -160,10 +136,8 @@
             "price": 49.99,
             "description": "This coral maxi dress is perfect for any summer wedding or event. The flowy fabric and delicate straps create a feminine and elegant look. The bright coral color is perfect for summer.",
             "image": "https://cdn.shopify.com/s/files/1/1708/7943/products/159_L1070669_Copyright_LoganPotterf_2022.jpg?v=1658842211",
-            "rating": {
-                "rate": 4.2,
-                "count": 52
-            }
+            "rate": 4.2,
+            "countRate": 52
         },
         {
             "id": 16,
@@ -171,10 +145,8 @@
             "price": 29.99,
             "description": "These blue striped shorts are perfect for a day at the beach or running errands. The lightweight fabric and loose fit make them comfortable for all-day wear. The blue and white stripe pattern is perfect for summer.",
             "image": "https://media3.newlookassets.com/i/newlook/808482243M1/homme/vetements/maillots-bain/bright-blue-stripe-swim-shorts.jpg?strip=true&qlt=80&w=720",
-            "rating": {
-                "rate": 4.0,
-                "count": 43
-            }
+            "rate": 4.0,
+            "countRate": 43
         },
         {
             "id": 17,
@@ -182,10 +154,8 @@
             "price": 54.99,
             "description": "This pink floral midi dress is perfect for any summer occasion. The bright pink color and floral pattern will make you stand out in a crowd. The midi length and flowy fabric create a feminine and elegant look.",
             "image": "https://www.whistles.com/dw/image/v2/BDCH_PRD/on/demandware.static/-/Sites-whistles-master-catalog/default/dwe0fcac18/images/00403340560/whistles-wheat-floral-shirred-dress-pink-multi-01.jpg?sw=1280&sh=1792&strip=false",
-            "rating": {
-                "rate": 4.6,
-                "count": 76
-            }
+            "rate": 4.6,
+            "countRate": 76
         },
         {
             "id": 18,
@@ -193,10 +163,8 @@
             "price": 34.99,
             "description": "These denim shorts are a summer wardrobe staple. The high-waisted fit and distressed detailing create a trendy and edgy look. The denim fabric is perfect for all-day wear.",
             "image": "https://img.ltwebstatic.com/images3_pi/2021/03/31/1617184255699747f7975cb3d17efb1b340b34d751_thumbnail_405x552.webp",
-            "rating": {
-                "rate": 4.2,
-                "count": 62
-            }
+            "rate": 4.2,
+            "countRate": 62
         },
         {
             "id": 18,
@@ -204,10 +172,8 @@
             "price": 35.99,
             "description": "Get ready for summer with this adorable floral print mini dress! Made from lightweight and breathable fabric, it's perfect for staying cool on those hot days. .",
             "image": "https://cdn.shopify.com/s/files/1/0501/3057/products/I-72991W-RYB-AE_NAVY-BERRY-1.jpg?v=1653607330",
-            "rating": {
-                "rate": 4.5,
-                "count": 32
-            }
+            "rate": 4.5,
+            "countRate": 32
         },
         {
             "id": 18,
@@ -215,10 +181,8 @@
             "price": 35.99,
             "description": "Get ready for summer with this adorable floral print mini dress! Made from lightweight and breathable fabric, it's perfect for staying cool on those hot days. The dress features a flattering A-line silhouette and a flirty ruffle hem..",
             "image": "https://www.lulus.com/images/product/xlarge/3824890_766192.jpg?w=375&hdpi=1",
-            "rating": {
-                "rate": 4.5,
-                "count": 32
-            }
+            "rate": 4.5,
+            "countRate": 32
         }
     ]
 }
