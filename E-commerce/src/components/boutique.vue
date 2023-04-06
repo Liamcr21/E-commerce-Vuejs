@@ -48,6 +48,7 @@
 .page-item.active .page-link{
   background-color: #FFDE59;
   border: #FFDE59;
+  border: 1px solid #dee2e6;
 }
 </style>
 
